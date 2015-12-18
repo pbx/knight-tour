@@ -4,6 +4,10 @@ Knight's Tour
 Given a starting square, output a sequence of moves that will bring a knight
 from that square to every square on the board.
 
+One-line unit test in bash:
+
+  for i in {0..7}; do for j in {0..7}; do python knight_tour.py --start $i,$j; done; done;
+
 Paul Bissex <paul@bissex.net> December 2015
 """
 import argparse
